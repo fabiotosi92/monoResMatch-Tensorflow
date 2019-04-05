@@ -1,5 +1,5 @@
 # monoResMatch-Tensorflow
-**Learning monocular depth estimation by infusing traditional stereo knowledge**
+**Learning monocular depth estimation infusing traditional stereo knowledge**
 
 [Fabio Tosi](https://vision.disi.unibo.it/~ftosi/), [Filippo Aleotti](https://vision.disi.unibo.it/~faleotti/), [Matteo Poggi](https://vision.disi.unibo.it/~mpoggi/) and [Stefano Mattoccia](https://vision.disi.unibo.it/~smatt/Site/Home.html)   
 CVPR 2019
@@ -164,7 +164,7 @@ If you find this code useful in your research, please cite:
 ```shell
 @InProceedings{Tosi_2019_CVPR,
 author = {Tosi, Fabio and Aleotti, Filippo and Poggi, Matteo and Mattoccia, Stefano},
-title = {Learning monocular depth estimation by infusing traditional stereo knowledge},
+title = {Learning monocular depth estimation infusing traditional stereo knowledge},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 month = {June},
 year = {2019}
