@@ -149,7 +149,7 @@ class Network(object):
 
         for i in range(self.params.scales_refined):
             tf.summary.image('disparity_left_refined_' + str(i), color_disparity(self.disp_left_est_refined[i] * self.params.display_factor), collections=self.model_collection)
-            tf.summary.image('left_est_refined_' + str(i), color_disparity(self.left_est_refined[i]), collections=self.model_collection)
+            tf.summary.image('left_est_refined_' + str(i), self.left_est_refined[i], collections=self.model_collection)
             tf.summary.scalar('proxy_loss_left_refined' + str(i), self.reconstruction_proxy_loss_left_refined[i], collections=self.model_collection)
             tf.summary.scalar('image_loss_left_refined_' + str(i), self.image_loss_left_refined[i], collections=self.model_collection)
 
