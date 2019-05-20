@@ -5,8 +5,8 @@
 CVPR 2019
 
 
-Paper: [pdf]   
-Supplementary material: [pdf]
+[Paper](https://vision.disi.unibo.it/~ftosi/papers/monoResMatch.pdf)   
+[Supplementary material](https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_supp.pdf)   
 
 ## Architecture
 Tensorflow implementation of monocular Residual Matching (monoResMatch) network.
