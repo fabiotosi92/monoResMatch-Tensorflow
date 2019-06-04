@@ -7,6 +7,8 @@ CVPR 2019
 
 [Paper](https://vision.disi.unibo.it/~ftosi/papers/monoResMatch.pdf)   
 [Supplementary material](https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_supp.pdf)   
+[Poster](https://vision.disi.unibo.it/~ftosi/papers/monoResMatch_poster.pdf)  
+[Youtube Video](https://www.youtube.com/watch?v=h6Wo5MqbCY0&t=2s)
 
 ## Architecture
 Tensorflow implementation of monocular Residual Matching (monoResMatch) network.
@@ -22,8 +24,7 @@ This code was tested with Tensorflow 1.8, CUDA 9.0 and Ubuntu 16.04.
 
 Cityscapes
 
-The CityScapes dataset contains stereo pairs concerning about 50 cities in Germany taken from amoving vehicle in various weather conditions. It consists
-of 22,973 stereo pairs splitted into train, validation and test sets. You can find the training set file in ./utils/filenames/cityscapes_train_files.txt 
+The CityScapes dataset contains stereo pairs concerning about 50 cities in Germany taken from amoving vehicle in various weather conditions. It consists of 22,973 stereo pairs splitted into train, validation and test sets. You can find the training set file in ./utils/filenames/cityscapes_train_files.txt 
 
 You will need to register in order to download the data. 
 
