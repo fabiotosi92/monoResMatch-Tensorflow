@@ -1,3 +1,5 @@
+#!/bin/bash
+
 : "${TF_VERSION:?}"
 
 pip install -q -U numpy
