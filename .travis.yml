@@ -10,7 +10,8 @@ env:
 install:
   - pip install -q "tensorflow==$TF_VERSION"
   - pip install -q -U numpy
-  - pip install -q matplotlib
+  - pip install matplotlib
+  - pip install opencv-python
 script:
   # Check import
   - python -c 'import tensorflow as tf; print(tf.__version__)'
