@@ -1,5 +1,5 @@
 sudo: required
-dist: trusty
+dist: bionic
 language: python
 python: # Only two versions for now
   - "2.7"
